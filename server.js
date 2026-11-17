@@ -8,7 +8,7 @@ app.use(express.json());
 // Backend API
 app.get('/students', (req, res) => {
     res.json([
-        { id: 1, name: 'Rahul', course: 'BCA' },
+        { id: 1, name: 'Ram', course: 'BCA' },
         { id: 2, name: 'Priya', course: 'MCA' }
     ]);
 });
